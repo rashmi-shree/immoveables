@@ -1,10 +1,10 @@
 import React from 'react'; 
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup} from 'react-bootstrap'; 
+import {Navbar, Nav, NavDropdown, Button, ButtonGroup} from 'react-bootstrap'; 
 import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <Navbar bg="light" expand="lg" className="hii">
+        <Navbar className="nb" bg="light" expand="lg">
         <Navbar.Brand href="/home">Immovables</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
