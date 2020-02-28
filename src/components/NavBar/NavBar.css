@@ -1,4 +1,14 @@
-.hii {
-    border: 2px solid black;
-    
+.nb {
+    background-color:#333333 ;
+}
+#logo{
+    color: #e67300;
+    font-size: 2rem;
+    font-family: Comic Sans MS;
+}
+.check{
+    color: white;
+}
+#su {
+    color: white;
 }
