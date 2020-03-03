@@ -1,13 +1,15 @@
 import React,{Component} from 'react';
 import NavBar from './components/NavBar/NavBar';
-import SubNavBar from './components/SubNavBar/SubNavBar'
+import Footer from './components/Footer/Footer';
+import Body from './components/Body/Body';
 
 class App extends Component {
   render(){
-    return (
+    return(
       <div className="App">
        <NavBar />
-       <SubNavBar />
+       <Body />
+       <Footer />
       </div>
       );  
   }
