@@ -1,4 +1,5 @@
 import React from 'react';  
+import {Form, Col, Button} from 'react-bootstrap';
 import './Body.css';
 
 const Body = () => {
@@ -14,6 +15,15 @@ const Body = () => {
                     <li><a href="/justsold">JUST SOLD</a></li>
                     <li><a href="/homevalue">HOME VALUE</a></li>
                  </ul>
+                 <Form>
+                    <Form.Row>
+                        <Col>
+                        <Form.Control placeholder="Enter Location" />
+                        <Button type="submit">Search</Button>
+                        </Col>
+                    </Form.Row>
+                </Form>
+                
              </div>
         </div>
         );
