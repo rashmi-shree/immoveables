@@ -4,3 +4,24 @@
 .col-md-4 {
     border: 2px solid black;
 }
+.card {
+    margin-top: 3rem;
+}
+.card-deck .card {
+    margin-bottom: 15px;
+}
+a{
+    color: black;
+}
+.title{
+    width: 13rem;
+    margin-left: 7rem;
+}
+.button{
+    width: 13rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.btn {
+    width: 10rem;
+}

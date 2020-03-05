@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Button, CardDeck} from 'react-bootstrap';
+import {Card, CardDeck, Button} from 'react-bootstrap';
 import './Lowerbody.css';
 const Lowerbody = () => {
     return (
@@ -7,42 +7,49 @@ const Lowerbody = () => {
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title className="title"><a href="/details">Buy a home</a></Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.
+             <a href="/details">
+                 With over 1 million+ homes for sale available on the website, Immoveables can match you with a 
+                 house you will want to call home.  
+             </a>
+             <div className="button">
+                <Button  type="submit"><a href="/details">Find a home</a></Button>
+            </div>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title className="title"><a href="/details">Rent a home</a></Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to additional
-              content.{' '}
+              <a href="/details">
+                  With 35+ filters and custome keyword search, Immoveables can
+                  help you easily find a home or apartment for rent that 
+                  you'll love.
+              </a>
+              <div className="button">
+                <Button type="submit">Find a rental</Button>
+              </div>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title className="title"><a href="/details">See neighborhoods</a></Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to
-              show that equal height action.
+              <a href="/details">
+                  With more neighborhood insights that any other real
+                  estate website, we've captured the color and diversity
+                  of communities.
+              </a>
+              <div className="button">
+                <Button type="submit">Learn more</Button>
+              </div>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </CardDeck>
     );

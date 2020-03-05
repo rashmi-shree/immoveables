@@ -16,7 +16,7 @@ body, html {
 .bg div {
   color: white;
   width: 50rem;
-  margin-left: 20rem;
+  /* margin-left: 20rem; */
   padding-top: 5%;
 }
 .bg h1, h4 {
@@ -39,7 +39,9 @@ li a:hover {
   text-decoration: underline;
 }
 .form-control {
-  margin-left: -37rem;
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-top: 0%;
   margin-right: 5%;
   width: 30rem;
   padding-top: 0%;
@@ -53,4 +55,12 @@ li a:hover {
   height: 2.5rem;
   background-color:#e67300;
   border: #e67300;
+}
+.data1 {
+  border: 2px solid black;
+  margin-left: 20rem;
+}
+.data2{
+  border: 2px solid black;
+  margin-left: 20rem;
 }
